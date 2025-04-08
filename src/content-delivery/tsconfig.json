@@ -1,12 +1,22 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "src/scripts/types", "**/*"],
-  "exclude": ["dist"],
+  "include": [
+    ".astro/types.d.ts",
+    "src/scripts/types",
+    "**/*"
+  ],
+  "exclude": [
+    "dist"
+  ],
   "compilerOptions": {
     "target": "ES2024",
     "useDefineForClassFields": true,
     "module": "NodeNext",
-    "lib": ["ES2024", "dom", "dom.iterable"],
+    "lib": [
+      "ES2024",
+      "dom",
+      "dom.iterable"
+    ],
     "strict": true,
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
@@ -21,10 +31,18 @@
     "moduleDetection": "auto",
     "baseUrl": ".",
     "paths": {
-        "@components/*": ["src/components/*"],
-        "@layouts/*": ["src/layouts/*"],
-        "@scripts/*": ["src/scripts/*"],
-        "@styles/*": ["src/styles/*"]
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@scripts/*": [
+        "src/scripts/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ]
     }
   }
 }

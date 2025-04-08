@@ -1,4 +1,4 @@
-import toPascalCase from '@scripts/helpers/toPascalCase';
+import toPascalCase from './helpers/toPascalCase.ts';
 
 /**
  * DynamicModules handles importing and initializing JavaScript modules 
