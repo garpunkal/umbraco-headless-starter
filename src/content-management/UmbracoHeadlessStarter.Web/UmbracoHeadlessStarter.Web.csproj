@@ -4,6 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="umbraco\Data\Umbraco.sqlite.db" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Our.Umbraco.HeadlessPreview" Version="2.2.2" />
