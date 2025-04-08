@@ -12,8 +12,8 @@ export default defineConfig({
         '@hey-api/client-fetch',
         '@hey-api/schemas',
         {
-            dates: true,
             name: '@hey-api/transformers',
+            dates: true,         
         },
         {
             enums: 'javascript',

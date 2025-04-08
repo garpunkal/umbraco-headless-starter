@@ -1,4 +1,4 @@
-import { ContentService,type IApiContentResponseModel } from '@scripts/api/index.ts'
+import { ContentService, type IApiContentResponseModel } from '@scripts/api/index.ts'
 import { type Client, type ClientOptions, createClient, createConfig } from '@hey-api/client-fetch';
 import parseBoolean from '@scripts/helpers/parseBoolean';
 
@@ -44,7 +44,7 @@ class UmbracoClientService {
     public async getContentItemByPath(path: string): Promise<IApiContentResponseModel> {
 
         const item = await ContentService.getContentItemByPath20({
-            path: { path: path},
+            path: { path: path },
             client: this.client,
             headers: {
                 "Api-Key": this.config.apiKey,
