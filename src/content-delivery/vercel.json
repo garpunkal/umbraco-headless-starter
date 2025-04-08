@@ -25,7 +25,7 @@
           },
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://garpunkal.dev"
+            "value": "https://localhost:4321"
           }
         ]
       }

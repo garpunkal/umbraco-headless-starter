@@ -1,1 +1,5 @@
-"# umbraco-headless-starter" 
+# umbraco headless starter
+
+## License
+
+[MIT License](LICENSE.md)

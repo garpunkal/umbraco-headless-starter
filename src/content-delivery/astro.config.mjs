@@ -43,7 +43,7 @@ export default defineConfig({
         windows: false,
         yandex: false,
       },
-      pixel_art: true,
+      pixel_art: false,
       manifestMaskable: false,
       output: {
         images: true,
