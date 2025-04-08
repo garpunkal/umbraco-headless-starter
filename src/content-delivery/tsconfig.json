@@ -1,48 +1,38 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "include": [
-    ".astro/types.d.ts",
-    "src/scripts/types",
-    "**/*"
-  ],
-  "exclude": [
-    "dist"
-  ],
+  "extends": "astro/tsconfigs/base",
+  "include": [ ".astro/types.d.ts", "src/scripts/types", "**/*" ],
+  "exclude": [ "dist" ],
+  
   "compilerOptions": {
-    "target": "ES2024",
+  
+    "target": "ESNext",
     "useDefineForClassFields": true,
-    "module": "NodeNext",
-    "lib": [
-      "ES2024",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",  
+    "skipLibCheck": true,
+    "moduleDetection": "auto",
+      
+    /* linting */
     "strict": true,
-    "moduleResolution": "NodeNext",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true,
+
+    /* bundler mode*/
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "moduleDetection": "auto",
+    "resolveJsonModule": true,    
+    "isolatedModules": true,
+    "noEmit": true,
+    "esModuleInterop": true,      
+     
+    /* paths */  
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@layouts/*": [
-        "src/layouts/*"
-      ],
-      "@scripts/*": [
-        "src/scripts/*"
-      ],
-      "@styles/*": [
-        "src/styles/*"
-      ]
+      "@components/*": ["src/components/*" ],
+      "@layouts/*": ["src/layouts/*"],
+      "@scripts/*": ["src/scripts/*"],
+      "@styles/*": ["src/styles/*"]
     }
   }
 }

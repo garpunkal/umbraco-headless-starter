@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHeadlessStarter.Web", "UmbracoHeadlessStarter.Web.csproj", "{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHeadlessStarter.Web", "UmbracoHeadlessStarter.Web\UmbracoHeadlessStarter.Web.csproj", "{87819EBF-DDCF-493F-B130-44C1D347C27E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|x64.Build.0 = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Debug|x86.Build.0 = Debug|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|x64.ActiveCfg = Release|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|x64.Build.0 = Release|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|x86.ActiveCfg = Release|Any CPU
-		{72F4D673-15FB-4F6C-83A6-E4D7ED8ABE14}.Release|x86.Build.0 = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|x64.Build.0 = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Debug|x86.Build.0 = Debug|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|x64.ActiveCfg = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|x64.Build.0 = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|x86.ActiveCfg = Release|Any CPU
+		{87819EBF-DDCF-493F-B130-44C1D347C27E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

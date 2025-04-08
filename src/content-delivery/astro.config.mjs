@@ -6,6 +6,9 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 import favicons from "astro-favicons";
 import mkcert from 'vite-plugin-mkcert'
+import dotenv from 'dotenv';
+
+dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
 setDefaultResultOrder('verbatim')
 
@@ -18,10 +21,10 @@ export default defineConfig({
     ]
   },
   site: "https://localhost:4321",
-  prefetch: true, 
+  prefetch: true,
   // image: {
   //   domains: ["res.cloudinary.com"],
-  // },
+  // }, 
   integrations: [
     sitemap(),
     robotsTxt({
