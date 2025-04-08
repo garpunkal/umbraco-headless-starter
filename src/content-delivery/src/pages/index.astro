@@ -1,18 +1,16 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import umbracoService from "@scripts/services/UmbracoService";
+import UmbracoService from "@scripts/services/UmbracoClientService";
 
-// Get the home content with proper typing
-const homepage = await umbracoService.getHomepage();
+const page = await UmbracoService.getContentItemByPath(Astro.url.pathname);
 
+console.log(page);
 ---
+
 <Layout title="Umbraco Headless Starter">
 	<section class="container">
 		<h1>Umbraco Headless Starter</h1>
-		<p>Welcome to the Umbraco Headless Starter!</p>
 		<a id="switch-theme" aria-label="dark mode" title="dark mode" class="w-full cursor-pointer text-primary">[theme]</a>
-
-		{homepage && <p>{homepage?.properties?.title}</p>}
-		
+		<p>page title: {page?.properties?.title}</p>
 	</section>
 </Layout>
