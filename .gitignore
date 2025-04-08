@@ -461,7 +461,7 @@ FodyWeavers.xsd
 **/wwwroot/umbraco/
 
 # SQLite files
-*.sqlite.db*
+#*.sqlite.db*
 
 #ignore umbraco data/views/settings
 **/umbraco/
